@@ -1,0 +1,46 @@
+<ECF>
+	<Algorithm>
+		<RouletteWheel>
+                <Entry key="crxprob">0.5</Entry>    
+                <Entry key="selpressure">10</Entry>     
+        </RouletteWheel>
+	</Algorithm>
+	<Genotype>
+		<Cartesian>
+			<Entry key="numvariables">1</Entry>
+			<Entry key="numoutputs">1</Entry>
+			<Entry key="numrows">5</Entry>
+			<Entry key="numcols">5</Entry>
+			<Entry key="levelsback">2</Entry>
+			<Entry key="keysize">1</Entry>
+			<Entry key="functionsetkey">xor xorbyte xor0 xor1 if swap rotl rotr</Entry>
+			<Entry key="functionsetnokey">xor0 xor1 if swap rotr rotl</Entry>
+		</Cartesian>
+	</Genotype>
+
+	<Registry>
+		<Entry key="mutation.indprob">0.5</Entry>
+
+		<Entry key="population.size">20</Entry>
+		<Entry key="term.maxgen">30</Entry>
+		<Entry key="term.fitnessval">0</Entry>
+		<Entry key="log.level">3</Entry>
+		<Entry key="log.frequency">1</Entry>
+		<Entry key="log.filename">log_alice.txt</Entry>
+
+		<Entry key="nmessages">10</Entry>
+		<Entry key="message.length">5</Entry>
+
+		<Entry key="include.bob">0</Entry>
+		<Entry key="include.eve">1</Entry>
+
+		<Entry key="use.bijection">0</Entry>
+		<Entry key="use.keyutil">0</Entry>
+		<Entry key="use.cipherdiffer">0</Entry>
+
+		<Entry key="bijection.fit">720</Entry>
+		<Entry key="keyutil.fit">720</Entry>
+		<Entry key="cipherdiffer.fit">720</Entry>
+
+	</Registry>
+</ECF>

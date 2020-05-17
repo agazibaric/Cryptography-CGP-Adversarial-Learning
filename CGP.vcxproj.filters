@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CGP">
+      <UniqueIdentifier>{76bb0f6e-4bc5-4921-984b-7ecf0b5c57fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cartesian\Cartesian.cpp">
+      <Filter>CGP</Filter>
+    </ClCompile>
+    <ClCompile Include="cartesian\CartesianMutOnePoint.cpp">
+      <Filter>CGP</Filter>
+    </ClCompile>
+    <ClCompile Include="cartesian\FunctionSet.cpp">
+      <Filter>CGP</Filter>
+    </ClCompile>
+    <ClCompile Include="cartesian\CartesianCrxOnePoint.cpp">
+      <Filter>CGP</Filter>
+    </ClCompile>
+    <ClCompile Include="cartesian\CartesianMutNonSilent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cartesian\CartesianMutSilent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cartesian\CartesianMutNewParameterLess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AliceEvalOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BobEvalOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EveEvalOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cartesian\EvalData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cartesian\CartesianCrxTwoPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cartesian\CartesianCrxUniform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cartesian\Cartesian.h">
+      <Filter>CGP</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\Cartesian_c.h">
+      <Filter>CGP</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\CartesianMutOnePoint.h">
+      <Filter>CGP</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\Function.h">
+      <Filter>CGP</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\FunctionSet.h">
+      <Filter>CGP</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\CartesianCrxOnePoint.h">
+      <Filter>CGP</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\CartesianMutNonSilent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\CartesianMutSilent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\CartesianMutNewParameterLess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AliceEvalOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\Xor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\If.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BobEvalOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\Skip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EveEvalOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\EvalData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\XorByte.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\Swap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\Xor0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\Xor1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\RotL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\RotR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\CartesianCrxTwoPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cartesian\CartesianCrxUniform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="parameters.txt" />
+    <Text Include="parameters_bob.txt" />
+    <Text Include="parameters_eve.txt" />
+  </ItemGroup>
+</Project>
